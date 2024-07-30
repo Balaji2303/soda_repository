@@ -1,6 +1,6 @@
 data_source snowflake:  
     type: snowflake
-    account: yi50078.ap-south-1.aws
+    account: ax85244.central-india.azure
     username: Balajisanthanam
     password: Bala_ji_2303
     role: accountadmin
