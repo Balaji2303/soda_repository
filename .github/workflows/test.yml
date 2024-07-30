@@ -15,8 +15,8 @@ jobs:
         with:
           soda_library_version: v1.5.5
           data_source: snowflake
-          configuration: ./CONFIGURATION.yml
-          checks: ./CHECKS.yml
+          configuration: ./configuration.yml
+          checks: ./checks.yml
         env:
           SODA_CLOUD_API_KEY: d7be935f-4f06-40a1-b77a-f4ec5207f115
           SODA_CLOUD_API_SECRET: Br7TazObPMhPXIlC-wJN7axtZiWxojOhBXeCNsT98q4Jc88MKD_owA
