@@ -1,0 +1,15 @@
+data_source snowflake:  
+    type: snowflake
+    account: yi50078.ap-south-1.aws
+    username: Balajisanthanam
+    password: Bala_ji_2303
+    role: accountadmin
+    database: SNOWFLAKE_SAMPLE_DATA
+    warehouse: COMPUTE_WH
+    schema: TPCH_SF1
+    threads: 10
+    client_session_keep_alive: False
+soda_cloud:
+  host: cloud.soda.io
+  api_key_id: 353a852a-3412-4140-af6e-14e90f639115
+  api_key_secret: 8LycfGqetFXO-DeTB_lGF30o2YSoRxGB9LyQwWkWwVgDCjvcgBVbRA
