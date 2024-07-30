@@ -1,4 +1,4 @@
-data_source snowflake:  
+data_source dbsource:  
     type: snowflake
     account: ax85244.central-india.azure
     username: Balajisanthanam
