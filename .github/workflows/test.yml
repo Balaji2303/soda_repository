@@ -14,11 +14,11 @@ jobs:
         uses: sodadata/soda-github-action@v1.0.2
         with:
           soda_library_version: v1.5.5
-          data_source: dbsource
-          configuration: ./configuration.yml
-          checks: ./checks.yml
+          data_source: snowflake
+          configuration: ./CONFIGURATION.yml
+          checks: ./CHECKS.yml
         env:
-          SODA_CLOUD_API_KEY: 782cfa87-e03b-442c-bff7-bfd85be0d7cf
-          SODA_CLOUD_API_SECRET: 2L7gPUXOw8MmW66D8Yi0T5bZXNP-IjRpRyMG9nNP_lE3-IgO3gKvww
-          SNOWFLAKE_USERNAME: prabhus
-          SNOWFLAKE_PASSWORD: Sastika@2023
+          SODA_CLOUD_API_KEY: d7be935f-4f06-40a1-b77a-f4ec5207f115
+          SODA_CLOUD_API_SECRET: Br7TazObPMhPXIlC-wJN7axtZiWxojOhBXeCNsT98q4Jc88MKD_owA
+          SNOWFLAKE_USERNAME: balajisanthanam
+          SNOWFLAKE_PASSWORD: Bala_ji_2303
